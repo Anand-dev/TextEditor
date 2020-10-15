@@ -15,11 +15,13 @@ public class Notepad extends JFrame{
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenu jMenu4;
     private javax.swing.JMenu jMenu5;
+    private javax.swing.Jmenu jMenu6; //created a new menu item 
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
+    private javax.swing.JMenuItem jMenuItem5;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextArea jTextArea1;
 	
@@ -47,6 +49,7 @@ public class Notepad extends JFrame{
 	        jMenu3 = new javax.swing.JMenu();
 	        jMenu4 = new javax.swing.JMenu();
 	        jMenu5 = new javax.swing.JMenu();
+		jMenu6= new javax.swing.Jmenu();
 
 	        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
